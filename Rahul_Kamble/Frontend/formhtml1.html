@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    
+    <link rel="stylesheet" href="formcss1.css">
+    <!--  validate email address -->
+    <script>
+        
+        function validate()
+        {  
+        var email=document.getElementById("email").value;
+        var pwd=document.getElementById("pwd").value;
+          
+        if (email==null || email=="")
+        
+        {  
+          alert("Email can't be blank");  
+          return false;  
+        }
+        
+        else if(pwd.length<6)
+        
+        {  
+          alert("Password must be at least 6 characters long.");  
+          return false;  
+          }  
+        } 
+        
+        function Check() {
+          return validate();      
+        }
+         
+          </script>
+
+</head>
+<!-- booking section starts   -->
+<body>
+    
+
+<section class="book" id="book">
+
+    <b><h1 class="heading"> <span>plan</span> your traveling</h1></b>   
+
+    <div class="row">
+
+        <div class="image">
+            <img src="http://pumpernickelpixie.com/wp-content/uploads/2015/06/31.gif" alt="">
+        </div>
+
+        
+        
+            <form role="form" action="BootstrapSample.html" onsubmit="return validate()" method="POST"  name="f1">  
+                <h3>login</h3>
+                
+                <input type="text" placeholder="your name" class="box">
+                <input type="number"   id="phone" name="phone"  placeholder="your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" class="box"/>
+                <input type="text" placeholder="location" class="box">
+                <div class="form-group"><label for="email" style="color: #16a085;" width="3px"></label><input type="email" class="box" class="box" id="email" placeholder="Enter email"></div>  
+                <div class="form-group"><label for="pwd" style="color: #16a085;"></label><input type="password" class="box" id="pwd" placeholder="Enter password"></div>  
+                <div class="form-check"><label class="form-check-label" style="color: #16a085;"><input class="form-control" type="checkbox"> Remember me</label></div>  
+                <button type="submit" class="btn btn-light" value="Check" >view plans</button>  
+              
+
+              
+        
+
+        </form>
+
+    </div>
+
+</section>
+</body>

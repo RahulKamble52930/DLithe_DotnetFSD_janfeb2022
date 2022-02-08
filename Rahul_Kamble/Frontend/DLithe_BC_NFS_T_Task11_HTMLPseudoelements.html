@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VIDEObackground</title>
+          <style>
+            body{
+              background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+            h1{
+              text-shadow: rgb(44, 40, 40) 5px 4px;
+            }
+            .topnav {
+              overflow: hidden;
+              background-color: rgb(71, 24, 24);
+              }           
+
+/* Style the topnav links */
+              .topnav a {
+                float: left;
+                display: block;
+                color: #90f0a5;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+
+      /* Change color on hover */
+                .topnav a:hover {
+                  background-color: rgb(159, 253, 253);
+                  color: rgb(170, 179, 47);
+                }
+              @media screen and (max-width: 400px) {
+                .topnav a {
+                  float: none;
+                  width: 100%;
+                }
+              }
+                </style>
+
+    /*  media queries:   */
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For full screen: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+          @media only screen and (max-width: 900px) {
+            /* For mini screen: */
+            [class*="col-"] {
+              width: 100%;
+              background-color: chartreuse;
+
+            }
+            @media only screen and (max-width: 700px) {
+              [class*="col-"]{
+              background-color: rgb(77, 180, 214);
+            }
+            }
+            @media only screen and (max-width: 400px) {
+              [class*="col-"] {
+                background-color: rgb(214, 132, 77);
+              }
+            }
+            @media only screen and (max-width: 200px) {
+              [class*="col-"] {
+                background-color: rgb(209, 77, 214);
+              }
+            }
+            @media only screen and (max-width: 150px) {
+            [class*="col-"] {
+                background-color: rgb(77, 102, 214);
+              }
+            }
+}
+</style>
+              
+  </head>
+<body>
+  
+  
+  <div class="topnav">
+    <ul>
+    <li><a href="file:///D:/DLithe_BC_NFW_RK/GIT.INSTALL.html" style="float:left">HOME</a></li>
+    <li><a href="OPACITY.html"style="float: right;">OPACITY</a></li>
+    <li><a href="OVERFLOW.html"style="float: right;">OVERFLOW</a></li>
+    <li><a href="pseudo.html" style="float: right;">PSEUDO-elements</a></li>
+    <li><a href="keyframes.html" style="float: right;">keyframes</a></li>
+    
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </li>
+  </ul>
+    </div>
+
+  
+
+<div class="section">
+
+       
+
+        <h1 style="color: aqua;">Welcome to My DLithe Journey</h1> 
+
+        <div class="video-container">
+            <div class="color-overlay"></div>
+            <video autoplay loop muted>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+    <div style="height:400px;width:100%">
+        <p> </p>
+    </div>
+    
+  
+<style>
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+</style>
+
+<div class="header">
+  <h1>BANGALORE</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+    <li><a href="https://www.oyorooms.com/hotels-in-bangalore/";>Rooms</a></li>
+    <li><a href=""> Tourist Places</a></li>
+    <li><a href=""> Tech Parks</a></li>
+    <li><a href=""> Food</a></li>
+    </ul>
+  </div>
+
+  
+
+/*media queries*/
+  <div class="col-6">
+    <h1>The City BANGALORE</h1>
+    <p>Bangalore is widely regarded as the "Silicon Valley of India" (or "IT capital of India") because of its role as the nation's leading information technology (IT) exporter. Indian technological organisations are headquartered in the city. A demographically diverse city, Bangalore is the second fastest-growing major metropolis in India. Recent estimates of the metro economy of its urban area have ranked Bangalore either the fourth- or fifth-most productive metro area of India. As of 2017, Bangalore was home to 7,700 millionaires and 8 billionaires with a total wealth of $320 billion. It is home to many educational and research institutions. Numerous state-owned aerospace and defence organisations are located in the city. The city also houses the Kannada film industry. It was ranked the most liveable Indian city with a population of over a million under the Ease of Living Index 2020.</p>
+  </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>What is Bangalore?</h2>
+      <p> officially known as Bengaluru, is the capital of the Indian state of Karnataka. It has a population of over ten million, making it a megacity and the third most populous city and fifth most populous urban agglomeration in India.</p>
+      <h2>What it is famous for?</h2>
+      <p>Crete is a Greek island in the Mediterranean Sea.</p>
+      <h2>Location</h2>
+      <p>Latitude and longitude coordinates are: 12.972442, 77.580643. located in the south central part of the country, right between the cities of Chennai and Mangalore</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+</body>
+</body>
+</html>

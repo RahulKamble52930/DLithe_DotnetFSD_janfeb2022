@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyHands </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--  validate email address -->
+    <script>
+        
+        function validate()
+        {  
+        var email=document.getElementById("email").value;
+        var pwd=document.getElementById("pwd").value;
+          
+        if (email==null || email=="")
+        
+        {  
+          alert("Email can't be blank");  
+          return false;  
+        }
+        
+        else if(pwd.length<6)
+        
+        {  
+          alert("Password must be at least 6 characters long.");  
+          return false;  
+          }  
+        } 
+        
+        function Check() {
+          return validate();      
+        }
+         
+          </script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-heartbeat"></i> HappyHands Health Insurance </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#services">our plans</a>  
+        <a href="#book">book</a>
+        <a href="#review">review</a> 
+    </nav>
+    
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="image/home-img.svg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>you are always safe and healthy in our HappyHands</h3>
+        <p>Health insurance is a contract where an insurance company provides medical coverage to the insured for a premium amount. It covers medical expenses incurred on hospitalization, surgeries, day care procedures, etc. A health insurance policy either reimburses the medical costs or offers cashless treatment.</p>
+        <a href="#" class="btn"> contact us <span class="fas fa-chevron-right"></span> </a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-user-md"></i>
+        <h3>140+</h3>
+        <p>doctors at work</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <h3>1.5cr+</h3>
+        <p>1.5 crores Happy customers</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-procedures"></i>
+        <h3>500+</h3>
+        <p>bed facility</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-hospital"></i>
+        <h3>80+</h3>
+        <p>available hospitals</p>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-notes-medical"></i>
+            <h3>free checkups</h3>
+            <p>Regular health check-ups are a must for every individual to avoid risk in further.</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-ambulance"></i>
+            <h3>24/7 ambulance</h3>
+            <p>It has always been the vision of the HappyHands to offer a 24/7 Ambulance service.</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-user-md"></i>
+            <h3>expert doctors</h3>
+            <p>expert doctors are always ready and can offer you medical services at any time of the day</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-pills"></i>
+            <h3>medicines</h3>
+            <p>we provide you pharmacy benefits which are an important component of any company's medical plan</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+     
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- about section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>plans</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-notes-medical"></i>
+            <h3>family health insurance</h3>
+            <p>The financial security of your family is essential to afford medical care today. Family health insurance provides coverage to your entire family against medical expenses incurred during an emergency on an insured basis.</p>
+            <a href="book" class="btn"> view plan <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-ambulance"></i>
+            <h3>corona virus health insurance</h3>
+            <p>The outbreak of the novel Coronavirus (COVID-19) has been in the news for two years now, the new omicron variant has been identified as the ‘variant of concern’ by the World Health Organization (WHO)</p>
+            <a href="book" class="btn"> view plan<span class="fas fa-chevron-right"></span> </a>
+        </div>
+    </div>
+
+</section>
+<!-- about section ends -->
+
+
+
+<!-- booking section starts   -->
+
+<section class="book" id="book">
+
+    <h1 class="heading"> <span>book</span> your insurance </h1>    
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/about-img.svg" alt="">
+        </div>
+
+        
+        
+            <form role="form" action="BootstrapSample.html" onsubmit="return validate()" method="POST"  name="f1">  
+                <h3>login to buy an insurance</h3>
+                
+                <input type="text" placeholder="your name" class="box">
+                <input type="number"   id="phone" name="phone"  placeholder="your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" class="box"/>
+                <input type="text" placeholder="please mention The type of insurance" class="box">
+                <div class="form-group"><label for="email" style="color: #16a085;" width="3px"></label><input type="email" class="box" class="box" id="email" placeholder="Enter email"></div>  
+                <div class="form-group"><label for="pwd" style="color: #16a085;"></label><input type="password" class="box" id="pwd" placeholder="Enter password"></div>  
+                <div class="form-check"><label class="form-check-label" style="color: #16a085;"><input class="form-control" type="checkbox"> Remember me</label></div>  
+                <button type="submit" class="btn btn-light" value="Check" >view plans</button>  
+              
+
+              
+        
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- booking section ends -->
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+    
+    <h1 class="heading"> client's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="C:\Users\rahul\OneDrive\Desktop\Dlithe insurance\HappyHands\image\Screenshot (252).png" alt="">
+            <h3>ARUN</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text">I have Exide life e term insurance plan. The policy plan is above average and the premiums are low. Policy coverage and the claims are high with high payback returns. Services provided by HappyHands guys is appreciable with good behaviour of your staff members and the extra good treatment provided by the executives is very nice. The terms and conditions are good.</p>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\rahul\OneDrive\Desktop\Dlithe insurance\HappyHands\image\Screenshot (251).png" alt="">
+            <h3>SRIDHAR</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text">The term insurance i have is one of the perfect insurance that is HDFC life click insurance, i took term insurance policy plan from HappyHands. The policy is good and services and it can be buy and accessed online also. The website is awesome and 5% less for women on premiums.</p>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\rahul\OneDrive\Desktop\Dlithe insurance\HappyHands\image\Screenshot (69).png" alt="">
+            <h3>PALLAVI</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text">I never preferred online process before due to chances of fraud. i used to prefer offline process. Someone told me that HappyHands is the most reliable website and there is no chances of fraud. So I decided to take a look at the car plans on their website, I took the Shriram General Plan from here</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+
+
+</body>
+</html>

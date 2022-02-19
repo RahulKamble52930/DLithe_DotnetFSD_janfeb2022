@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .results {
+            color: rgb(255, 255, 255);
+        border : rgb(6, 28, 226) 1px solid;
+        background-color : rgb(101, 103, 104);
+        text-align : left;
+        padding-inline-start: 170px;
+        height : 250px;
+        width : 90%;
+        }
+        .resultText {
+        font-size : 20px;
+        font-style : normal;
+        color : rgb(160, 215, 231);
+        }
+        </style>
+
+</head>
+
+
+    <body>
+        
+        <h2>Initialising the properties</h2>
+        <script>    
+            function Employee()
+           {
+            this.fname = 'Mayur';
+		this.lname = 'Kanagil';
+        this.designation = 'Team_lead';
+        this.mobile_no = 8884634534;
+            }
+        
+            var studObj1 = new Employee();
+            studObj1.age = 15;
+            document.write(studObj1.fname+"<br>");
+            document.write(studObj1.lname+"<br>");
+            document.write(studObj1.designation+"<br>");
+            document.write(studObj1.mobile_no+"<br>");
+        
+            var studObj2 = new Employee();
+            document.write(studObj2.age); 
+            </script>	
+
+    
+<hr>
+<h2>Adding the property by using reference object</h2>
+<script>
+    Employee.prototype.salary = 15000;
+    Employee.prototype.location = "Dharwad";
+
+	var studObj1 = new Employee();
+    document.write(studObj1.fname+"<br>");
+            document.write(studObj1.lname+"<br>");
+            document.write(studObj1.designation+"<br>");
+            document.write(studObj1.mobile_no+"<br>");
+        
+	document.write(studObj1.salary+"<br>"); 
+    document.write(studObj1.location+"<br>"); 
+</script>
+<h2>Accessing the property and display using inner html</h2>
+<p id="demo"></p>
+
+<script>
+function Emp1(fname, lname,designation1, salary1) 
+{
+  this.firstName = fname;
+  this.lastName = lname;
+  this.designation = designation1;
+  this.salary = salary1;
+}
+
+Emp1.prototype.name = function()
+ {
+  return this.firstName + " " + this.lastName;
+};
+
+const n = new Emp1("Rahul", "kamble", "Trainee", 10000);
+document.getElementById("demo").innerHTML ="My name is " + n.name()+"  my designation is"+n.designation+"  my salary is"+n.salary;
+document.write(n.name());
+</script>
+
+
+
+<hr>
+<h2>Inheritance </h2>
+<p id="demo7"></p>
+
+<script>                    //inheritance
+class Bike {
+  constructor(model) {
+    this.bikename = model;
+  }
+  present() {
+    return 'I have a ' + this.bikename;
+  }
+}
+
+class Model extends Bike {
+  constructor(model, mod) {
+    super(model);       //super refers to super class variable
+    this.model = mod;       //this refers to local variable
+  }
+  show() {
+    return this.present() + ', It is a ' + this.model;//calling a function present()
+  }
+}
+            //im creating the instance of the object with ref var as my bike and
+let mybike = new Model("Pulsar_NS200", "Naked BIKE");//im passing the values to the child class (model)
+document.getElementById("demo7").innerHTML = mybike.show();
+</script>
+
+<h2>
+    Polymorphism
+</h2>
+
+<script>
+
+
+    var captain = function () {}
+ 
+ 
+       captain.prototype.select = function()
+    {
+       return "CAPTAIN"
+    }
+ 
+ 
+ 
+    var kapilDev = function() {}
+ 
+    kapilDev.prototype = Object.create(captain.prototype);
+    kapilDev.prototype.select = function()                //  overridden the select method to display new string   
+     {                                                        
+       return "KapilDev";
+    }
+ 
+ 
+ 
+    var MS_Dhoni = function() {}
+    MS_Dhoni.prototype = Object.create(captain.prototype);  // overridden the select method to display new string
+    MS_Dhoni.prototype.select = function()                              
+    {
+       return "MS_Dhoni";
+    }
+ 
+ 
+ 
+    var virat_Kohli = function() {}
+    virat_Kohli.prototype = Object.create(captain.prototype);  // overridden the select method to display new string
+    virat_Kohli.prototype.select = function()                              
+    {
+       return "virat kohli";
+    }
+ 
+    
+ 
+ 
+    
+ 
+    var captain = [new captain(), new kapilDev(), new MS_Dhoni(), new virat_Kohli()];
+ 
+ 
+ 
+ 
+    captain.forEach(function(captain)
+    {
+     document.write(captain.select());
+     document.write("</br>");
+    });
+ </script>
+
+ <hr>
+ 
+
+
+<div class = "results">
+    <h2> Polymorphism example in an ATM machine</h2>
+    <form>
+    <p> Please select your currency: </p>
+    <input type="radio" id="Five_Hundred" name="currency" value="Five_Hundred">
+    <label for="Five_Hundred"> 500rs Note</label> <br>
+    <input type="radio" id="Two_Thousand" name="currency" value="Two_Thousand">
+    <label for="Two_Thousand"> 2000rs Note</label> <br>
+    <br>
+    <input type="button" value="WithDraw" onclick = "processData(this.form)">
+    </form>
+    <div class = "resultText">
+    <p id = "result"> </p>
+    </div>
+    </div>
+    <script type = "text/javascript">
+    class currency {
+    run() {
+    return " currency is withdrawn " ;
+    }
+    }
+    class Five_Hundred extends currency {
+    run() {
+    return " Five_Hundred Notes are withdrawn " ;
+    }
+    }
+    class Two_Thousand extends currency {
+    run() {
+    return " Two_Thousand Notes are withdrawn " ;
+    }
+    }
+    function processData(form) {
+    var type = form.currency.value;
+    var v;
+    if(type == "Five_Hundred"){
+    v = new Five_Hundred();
+    }else if( type == "Two_Thousand"){
+    v = new Two_Thousand();
+    }else {
+    v = new currency();
+    }
+    msg = v.run();
+    document.getElementById("result").innerHTML = msg;
+    }
+    </script>
+
+
+
+  
+
+    
+</body>
+</html>

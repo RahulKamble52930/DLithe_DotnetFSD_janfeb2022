@@ -1,0 +1,12 @@
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\bin\Debug\net6.0\ClassLibrary2.deps.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\bin\Debug\net6.0\ClassLibrary2.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\bin\Debug\net6.0\ref\ClassLibrary2.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\bin\Debug\net6.0\ClassLibrary2.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.csproj.AssemblyReference.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.GeneratedMSBuildEditorConfig.editorconfig
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.AssemblyInfoInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.AssemblyInfo.cs
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.csproj.CoreCompileInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\obj\Debug\net6.0\ref\ClassLibrary2.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.pdb

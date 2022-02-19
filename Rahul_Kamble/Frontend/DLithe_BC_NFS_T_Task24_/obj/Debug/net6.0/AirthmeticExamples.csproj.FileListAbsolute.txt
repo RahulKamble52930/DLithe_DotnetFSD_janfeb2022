@@ -1,0 +1,5 @@
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\obj\Debug\net6.0\AirthmeticExamples.csproj.AssemblyReference.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\obj\Debug\net6.0\AirthmeticExamples.GeneratedMSBuildEditorConfig.editorconfig
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\obj\Debug\net6.0\AirthmeticExamples.AssemblyInfoInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\obj\Debug\net6.0\AirthmeticExamples.AssemblyInfo.cs
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\obj\Debug\net6.0\AirthmeticExamples.csproj.CoreCompileInputs.cache

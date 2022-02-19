@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\DLithe_DotnetFSD_janfeb2022\\Rahul_Kamble\\Frontend\\DLithe_BC_NFS_T_Task24_C_ Swap without using third variable\\DLithe_BC_NFS_T_Task24_C_ Swap without using third variable.csproj": {}
+  },
+  "projects": {
+    "F:\\DLithe_DotnetFSD_janfeb2022\\Rahul_Kamble\\Frontend\\DLithe_BC_NFS_T_Task24_C_ Swap without using third variable\\DLithe_BC_NFS_T_Task24_C_ Swap without using third variable.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\DLithe_DotnetFSD_janfeb2022\\Rahul_Kamble\\Frontend\\DLithe_BC_NFS_T_Task24_C_ Swap without using third variable\\DLithe_BC_NFS_T_Task24_C_ Swap without using third variable.csproj",
+        "projectName": "DLithe_BC_NFS_T_Task24_C_ Swap without using third variable",
+        "projectPath": "F:\\DLithe_DotnetFSD_janfeb2022\\Rahul_Kamble\\Frontend\\DLithe_BC_NFS_T_Task24_C_ Swap without using third variable\\DLithe_BC_NFS_T_Task24_C_ Swap without using third variable.csproj",
+        "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
+        "outputPath": "F:\\DLithe_DotnetFSD_janfeb2022\\Rahul_Kamble\\Frontend\\DLithe_BC_NFS_T_Task24_C_ Swap without using third variable\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rahul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

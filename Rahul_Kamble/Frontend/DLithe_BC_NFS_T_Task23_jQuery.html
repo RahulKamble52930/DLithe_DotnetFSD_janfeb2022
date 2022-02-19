@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+    body{
+        color: rgb(255, 255, 255);
+        background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    h2{
+        color: white;
+    }
+    p{
+        color: rgb(255, 255, 255);
+    }
+    pre{
+        color: rgb(255, 253, 253);
+    }
+    #accordion{
+        background-color: rgb(255, 238, 238);
+        color: #ffffff;
+
+    }
+</style>
+</style>
+<script> 
+    $(document).ready(function(){
+      $(".button10").click(function(){
+        var div = $("#div40");  
+        div.animate({left: '100px'}, "slow");
+        div.animate({fontSize: '3em'}, "slow");
+      });
+    });
+    </script> 
+
+<script> 
+$(document).ready(function(){
+  $(".button111").click(function(){
+    var div = $("#div111");
+    div.animate({height: '300px', opacity: '0.4'}, "slow");
+    div.animate({width: '300px', opacity: '0.8'}, "slow");
+    div.animate({height: '100px', opacity: '0.4'}, "slow");
+    div.animate({width: '100px', opacity: '0.8'}, "slow");
+  });
+});
+</script> 
+<!--set method-->
+<script>
+    $(document).ready(function(){
+      $("#btn100").click(function(){
+        $("#test111").text("Hello DLithe!");
+      });
+      $("#btn200").click(function(){
+        $("#test222").html("<b>TEAM LONAVALA!</b>");
+      });
+      $("#btn300").click(function(){
+        $("#test333").val("DHARWAD");
+      });
+    });
+    </script>
+<!--get method-->
+<script>
+    $(document).ready(function(){
+      $("#btn1").click(function(){
+        alert("Text: " + $("#test").text());
+      });
+      $("#btn2").click(function(){
+        alert("HTML: " + $("#test").html());
+      });
+    });
+    </script>
+    <!--get method-->
+<script>
+    $(document).ready(function(){
+      $("#btn11").click(function(){
+        alert("Text: " + $("#test11").text());
+      });
+      $("#btn22").click(function(){
+        alert("HTML: " + $("#test11").html());
+      });
+    });
+    </script>
+    <!--css classes-->
+    <script>
+        $(document).ready(function(){
+          $("#button99").click(function(){
+            $("#div99").css({"background-color": "yellow", "font-size": "200%"});
+          });
+        });
+        </script>
+
+
+        <link rel="stylesheet"href="https://code.jquery.com/ui/1.11.4/themes/free/jquery-ui.css">  
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>  
+        <link rel="stylesheet" href="/resources/demos/style.css">  
+        <script>  
+        $(function() {  
+          $( "#accordion" ).accordion();  
+        });  
+        </script>  
+
+<script>
+  $(function() {
+     var autocomp  = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla","Antigua & Barbuda","Argentina","Armenia",
+     "Aruba","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin",
+     "Bermuda","Bhutan","Bolivia","Bosnia & Herzegovina","Botswana","Brazil","British Virgin Islands","Brunei","Bulgaria","Burkina Faso",
+     "Burundi","Cambodia","Cameroon","Canada","Cape Verde","Cayman Islands","Central Arfrican Republic","Chad","Chile","China","Colombia","Congo",
+     "Cook Islands","Costa Rica","Cote D Ivoire","Croatia","Cuba","Curacao","Cyprus","Czech Republic","Denmark","Djibouti","Dominica","Dominican Republic",
+     "Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Ethiopia","Falkland Islands","Faroe Islands","Fiji","Finland","France","French Polynesia",
+     "French West Indies","Gabon","Gambia","Georgia","Germany","Ghana","Gibraltar","Greece","Greenland","Grenada","Guam","Guatemala","Guernsey","Guinea","Guinea Bissau",
+     "Guyana","Haiti","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Isle of Man","Israel","Italy","Jamaica","Japan","Jersey",
+     "Jordan","Kazakhstan","Kenya","Kiribati","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macau","Macedonia",
+     "Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Mauritania","Mauritius","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Montserrat","Morocco","Mozambique","Myanmar","Namibia","Nauro","Nepal","Netherlands","Netherlands Antilles","New Caledonia","New Zealand","Nicaragua","Niger","Nigeria","North Korea","Norway","Oman","Pakistan","Palau","Palestine","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Reunion","Romania","Russia","Rwanda","Saint Pierre & Miquelon","Samoa","San Marino","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Korea","South Sudan","Spain","Sri Lanka","St Kitts & Nevis","St Lucia","St Vincent","Sudan","Suriname","Swaziland","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor L'Este","Togo","Tonga","Trinidad & Tobago","Tunisia","Turkey","Turkmenistan","Turks & Caicos","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States of America","Uruguay","Uzbekistan","Vanuatu","Vatican City","Venezuela","Vietnam","Virgin Islands (US)","Yemen","Zambia","Zimbabwe"];
+     $( "#automplete-1" ).autocomplete({
+       fontSize=medium,
+        source: autocomp,
+        autoFocus:true,
+       minLength:2,   
+        delay:500,   
+     });
+  });
+</script>
+
+
+</head>
+<body>
+
+    <h1>Animation</h1>
+     
+        
+<section class="Animations" id="Animations">
+    <button class="button10">Start Animation</button>
+    <div id="div40" style="background:#f09e24;height:100px;width:200px;position:absolute;">INDIA</div>
+
+
+</div><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section>
+
+
+<button class="button111">Start </button>
+
+
+<div id="div111" style="background:#1cbfe7;height:100px;width:100px;position:absolute;"></div>
+
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<h1>Methods</h1>
+<hr>
+<h2>Get method</h2>
+<p id="test">This is some <b>bold</b> text in a paragraph.</p>
+
+<button id="btn1">Show Text</button>
+<button id="btn2">Show HTML</button>
+<hr>
+<h2>Set method</h2>
+<div id="div20" ><p>Hi everyone have a good day.</p></div>
+
+<p id="test111">GOOD MORNING</p>
+<p id="test222">HAVE A NICE DAY.</p>
+
+<p>Input field: <input type="text" id="test333" value="BANGALORE"></p>
+
+<button id="btn100">Set Text</button>
+<button id="btn200">Set HTML</button>
+<button id="btn300">Set Value</button>
+        </section>
+<hr>
+<p id="test11">Hello wellcome to <b>DLithe</b> team.</p>
+
+<button id="btn11">Show Text</button>
+<button id="btn22">Show HTML</button>
+<hr>
+<br>
+<hr>
+<h1>css classes</h1>
+<div id="div99">
+<p id="div99" style="background-color:#e94545">This is a paragraph.</p>
+<p id="div99" style="background-color:#47c562">This is a paragraph.</p>
+<p id="div99" style="background-color:#56d2e7">This is a paragraph.</p>
+</div>
+
+
+<button id="button99">Set multiple styles for p</button>
+
+
+
+<br>
+<br>
+
+<hr>
+<h1>jQuery UI Accordion</h1>
+
+<div id="accordion" style=" background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); ">  
+    <h3>What is Java?[click on me]</h3>  
+    <div>  
+      <p style="background-color:dimgray">  
+     Java is a simple, object oriented, concurrent and general purpose programming language.   
+    Some other important features of java are robust, secure, portable, interactive and high performance.   
+    Java was developed by Sun Microsystems in 1995 since then it has become very popular due to its feature  
+     like platform independent and robust in the case of memory management.  
+      </p>    
+    </div>  
+    <h3>Why is it called platform?  [click on me]</h3>  
+    <div>  
+      <p style="background-color:rgb(88, 92, 89)">  
+     Because java has its own run time environment (JRE) and API so it is called platform.  
+      </p>  
+    </div>  
+    <h3>Where is it used?[click on me]</h3>  
+    <div>  
+      <p style="background-color:rgb(94, 87, 84)">  
+      According to Sun Microsystems, nearly 3 billion devices run java. Some of these devices   
+     are mobile phones, games, robotics, application in banking sector etc.  
+      </p>  
+    </div>  
+    <h3>Why JavaTpoint?[click on me]</h3>  
+    <div style="background-color:rgb(68, 71, 71)">  
+      <ul>  
+        <li style="background-color:rgb(66, 68, 68)">Life Time Validity</li>  
+        <li style="background-color:rgb(60, 63, 63)">Training by Java Professionals</li>  
+        <li style="background-color:rgb(60, 63, 63)">Get an opportunity to work on real time projects</li>  
+         <li style="background-color:rgb(56, 58, 58)">Interaction with Industry Experts</li>  
+          <li style="background-color:rgb(34, 36, 36)">Small Batches to focus on each student</li>  
+      </ul>  
+    </div>  
+    </div>  
+    <hr>
+    <h1>Autocomplete</h1>
+    <h2>Search for your country</h2>
+    <br>
+    <div class = "ui-widget">
+      <p style="font-size: medium;"><em>Enter word or letter </em></p>
+      <label style="font-size: medium;" for = "automplete-1">Tags: </label>
+      <input size="medium" id = "automplete-1">
+   </div>
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\bin\Debug\net6.0\debugtask2inherit.exe
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\bin\Debug\net6.0\debugtask2inherit.deps.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\bin\Debug\net6.0\debugtask2inherit.runtimeconfig.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\bin\Debug\net6.0\debugtask2inherit.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\bin\Debug\net6.0\ref\debugtask2inherit.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\bin\Debug\net6.0\debugtask2inherit.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\obj\Debug\net6.0\debugtask2inherit.GeneratedMSBuildEditorConfig.editorconfig
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\obj\Debug\net6.0\debugtask2inherit.AssemblyInfoInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\obj\Debug\net6.0\debugtask2inherit.AssemblyInfo.cs
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\obj\Debug\net6.0\debugtask2inherit.csproj.CoreCompileInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\obj\Debug\net6.0\debugtask2inherit.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\obj\Debug\net6.0\ref\debugtask2inherit.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\obj\Debug\net6.0\debugtask2inherit.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\obj\Debug\net6.0\debugtask2inherit.genruntimeconfig.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debugtask2inherit\obj\Debug\net6.0\debugtask2inherit.csproj.AssemblyReference.cache

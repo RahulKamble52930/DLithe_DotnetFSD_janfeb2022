@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>DLithe_BC_NFS_T_Task24_C__Swap_without_using_third_variable</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\DLithe_BC_NFS_T_Task24_C_ Swap without using third variable and finding largest number.cs" Link="DLithe_BC_NFS_T_Task24_C_ Swap without using third variable and finding largest number.cs" />
+  </ItemGroup>
+
+</Project>

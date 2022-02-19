@@ -1,0 +1,15 @@
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\bin\Debug\net6.0\AirthmeticExamples.exe
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\bin\Debug\net6.0\AirthmeticExamples.deps.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\bin\Debug\net6.0\AirthmeticExamples.runtimeconfig.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\bin\Debug\net6.0\AirthmeticExamples.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\bin\Debug\net6.0\ref\AirthmeticExamples.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\bin\Debug\net6.0\AirthmeticExamples.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\obj\Debug\net6.0\AirthmeticExamples.csproj.AssemblyReference.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\obj\Debug\net6.0\AirthmeticExamples.GeneratedMSBuildEditorConfig.editorconfig
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\obj\Debug\net6.0\AirthmeticExamples.AssemblyInfoInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\obj\Debug\net6.0\AirthmeticExamples.AssemblyInfo.cs
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\obj\Debug\net6.0\AirthmeticExamples.csproj.CoreCompileInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\obj\Debug\net6.0\AirthmeticExamples.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\obj\Debug\net6.0\ref\AirthmeticExamples.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\obj\Debug\net6.0\AirthmeticExamples.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\AirthmeticExamples\AirthmeticExamples\obj\Debug\net6.0\AirthmeticExamples.genruntimeconfig.cache

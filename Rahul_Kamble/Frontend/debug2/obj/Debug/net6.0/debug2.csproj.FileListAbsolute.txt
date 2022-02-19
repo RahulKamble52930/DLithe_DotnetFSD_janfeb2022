@@ -1,0 +1,14 @@
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\bin\Debug\net6.0\debug2.exe
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\bin\Debug\net6.0\debug2.deps.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\bin\Debug\net6.0\debug2.runtimeconfig.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\bin\Debug\net6.0\debug2.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\bin\Debug\net6.0\ref\debug2.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\bin\Debug\net6.0\debug2.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\obj\Debug\net6.0\debug2.GeneratedMSBuildEditorConfig.editorconfig
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\obj\Debug\net6.0\debug2.AssemblyInfoInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\obj\Debug\net6.0\debug2.AssemblyInfo.cs
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\obj\Debug\net6.0\debug2.csproj.CoreCompileInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\obj\Debug\net6.0\debug2.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\obj\Debug\net6.0\ref\debug2.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\obj\Debug\net6.0\debug2.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\debug2\obj\Debug\net6.0\debug2.genruntimeconfig.cache

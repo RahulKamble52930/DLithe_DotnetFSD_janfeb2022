@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLithe_BC_NFS_T_Task26_C", "DLithe_BC_NFS_T_Task26_C.csproj", "{4E7FEE92-4D61-4C9C-90A9-C744D3919FCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E7FEE92-4D61-4C9C-90A9-C744D3919FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7FEE92-4D61-4C9C-90A9-C744D3919FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7FEE92-4D61-4C9C-90A9-C744D3919FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7FEE92-4D61-4C9C-90A9-C744D3919FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B5CE5EA-3368-47CD-8DC0-987C77F5CF14}
+	EndGlobalSection
+EndGlobal

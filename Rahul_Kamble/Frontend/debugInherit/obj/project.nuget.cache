@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "x/KNAcMx8yi6ZgK0ZUMK4uNo0TDqlpv1RP6+cIUEP2U2CJm2AQX33HrfqblodTFWLT6EiBnkhcnGT9uR43JHzw==",
+  "success": true,
+  "projectFilePath": "F:\\DLithe_DotnetFSD_janfeb2022\\Rahul_Kamble\\Frontend\\debugInherit\\debugInherit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rahul\\.nuget\\packages\\documentformat.openxml\\2.15.0\\documentformat.openxml.2.15.0.nupkg.sha512",
+    "C:\\Users\\rahul\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

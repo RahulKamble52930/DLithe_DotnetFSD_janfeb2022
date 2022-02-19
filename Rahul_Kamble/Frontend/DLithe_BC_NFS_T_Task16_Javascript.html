@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script type = "text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datatypes</title>
+    <style>
+        body{
+            background: #FBD3E9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+        }
+    </style>
+
+
+        <script type = "text/javascript">
+            
+         function hi() 
+         {
+     alert('Hi Trainees!');
+   } 
+function highlightInput()
+{
+ var e = document.getElementById('focus');
+         e.style.backgroundColor = 'blue';
+     }   
+   
+
+
+      </script>  
+
+
+
+
+<style>
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-image: url("https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: relative;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-user:hover {
+    color: #eee;
+  }
+  </style>
+</head>
+<body>
+
+ 
+
+    <p>When adding a number and a string, JavaScript will treat the number as a string.</p>
+
+<p id="example1"></p>
+<p id="example2"></p>
+<script>
+let x = 16 + "RAHUL";
+document.getElementById("example1").innerHTML = x;
+
+const person = {
+  firstName : "Rahul",
+  lastName  : "Kamble",
+  B_day     : 16,
+  B_month   :"March",
+  
+};
+document.getElementById("example2").innerHTML =person.firstName + " birthday is on  " + person.B_day + person.B_month;
+
+            var a=10; //number
+            var a1=10;
+            var b="Welcome"; //string
+            var c=true; //boolean
+            var d=81.2; //decimal
+            var e=null; //null
+            var f; //undefined
+            var g=["mouse","monitor"]; //array
+            const h=
+            {
+                    name:"abc",age:"25"
+            }; //object
+            document.write(a+"<br>");
+            document.write(b+"<br>");
+            document.write(c+"<br>");
+            document.write(d+"<br>");
+            document.write(e+"<br>");
+            document.write(f+"<br>");
+            document.write(g[0]+"<br>");
+            document.write(h.name+"<br>");
+            document.write(h.age+"<br>");
+            alert(a>=a1);
+
+
+            var hello;
+
+hello = () => "Hello World!"; //Arrow Functions Return Value by Default:
+//hello = () => {
+ // return "Hello World!";
+//}
+
+var hello;
+
+hello = function() 
+{
+  return "Hello World!";
+}
+
+document.getElementById("demo").innerHTML = hello();
+</script>
+<hr>
+<h2>JavaScript Arrow Function</h2>
+
+<p>This example shows the syntax of an Arrow Function, and how to use it.</p>
+
+<p id="demo1"></p>
+
+<script>
+var hello;
+
+hello = () => " Hi DLithe"; //Arrow Functions Return Value by Default:
+//hello = () => {
+ // return "Hello World!";
+//}
+
+document.getElementById("demo1").innerHTML = hello();
+</script>
+<hr>
+<p>This example shows an Arrow Function with a parameter.</p>
+
+<p id="demo2"></p>
+
+<script>
+var hello;
+
+hello = (val) => "DLithe " + val;
+
+document.getElementById("demo2").innerHTML = hello("BOOTCAMP");
+</script>
+<input id="bg" onkeyup="changeBackground()"
+placeholder="write something" style="color:rgb(255, 16, 16)">
+<hr>
+<input type="text" onkeypress="alert('DO NOT PRESS')" placeholder="enter the input">
+<br>
+<textarea onkeypress="alert('I SAID YOU!')" placeholder="text"></textarea>
+<br>
+<input id="focus" type="text" onfocus="highlightInput()">
+<br>
+<select onchange="alert('You have changed the selection!');">
+    <option>Select</option>
+    <option>front end</option>
+    <option>back end</option>
+</select>
+            
+ </form>
+ <button type="button" onclick="myFunction()">Click Me!</button>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<script>
+ function myFunction() 
+ {
+   document.getElementById("demo6").innerHTML = "hello";
+   document.getElementById("demo7").innerHTML = "have a good day";
+ }
+
+
+
+
+</script>
+<p>array concepts</p>
+<script>
+
+  
+  
+  const bike = ['pulsar', 'KTM', 'yamaha', 'RE'];
+  //splice(start, deleteCount, item1, item2, itemN)
+bike.splice(3, 0, 'TVS');
+// inserts at index 1
+document.write(bike);
+// expected output: Array ["Jan", "Feb", "March", "April", "June"]
+document.writeln("<br/>"); 
+
+bike.splice(4, 0, 'honda');
+// replaces 1 element at index 4
+document.write(bike);
+
+// expected output: Array ["Jan", "Feb", "March", "April", "May"]
+document.writeln("<br/>"); 
+
+var a = ['one', 'two', 'three', 'four', 'five']
+document.write(a);
+document.writeln("<br/>"); 
+var b = a.splice(2, 2);
+document.write(b);
+document.writeln("<br/>"); 
+document.write(a);
+document.writeln("<br/>"); 
+a.splice(2, 0, 'three','four');
+document.write(a);
+document.writeln("<br/>"); 
+  </script>
+
+<script>  
+  var s1="javascript ";  
+  var s2="concat example";  
+  var s3=s1.concat(s2);  
+  document.write(s3);  
+  </script> 
+
+<hr>
+<script>  
+    var s1="javascript ";  
+    var s2="concat example";  
+    var s3=s1.concat(s2);  
+    document.write(s3);  
+    </script> 
+    <hr>
+
+    <h1>image change on hover effect</h1>
+
+    <div class="container">
+      <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+      <a href="#" class="icon" title="User Profile">
+        <i class="fa fa-user"></i>
+      </a>
+      </div>
+    </div>
+</body>
+</html>

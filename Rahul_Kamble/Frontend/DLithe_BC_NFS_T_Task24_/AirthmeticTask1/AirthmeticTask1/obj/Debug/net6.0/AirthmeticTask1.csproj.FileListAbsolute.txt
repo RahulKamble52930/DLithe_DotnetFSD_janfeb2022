@@ -1,0 +1,15 @@
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\bin\Debug\net6.0\AirthmeticTask1.exe
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\bin\Debug\net6.0\AirthmeticTask1.deps.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\bin\Debug\net6.0\AirthmeticTask1.runtimeconfig.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\bin\Debug\net6.0\AirthmeticTask1.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\bin\Debug\net6.0\ref\AirthmeticTask1.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\bin\Debug\net6.0\AirthmeticTask1.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\obj\Debug\net6.0\AirthmeticTask1.csproj.AssemblyReference.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\obj\Debug\net6.0\AirthmeticTask1.GeneratedMSBuildEditorConfig.editorconfig
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\obj\Debug\net6.0\AirthmeticTask1.AssemblyInfoInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\obj\Debug\net6.0\AirthmeticTask1.AssemblyInfo.cs
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\obj\Debug\net6.0\AirthmeticTask1.csproj.CoreCompileInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\obj\Debug\net6.0\AirthmeticTask1.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\obj\Debug\net6.0\ref\AirthmeticTask1.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\obj\Debug\net6.0\AirthmeticTask1.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task24_\AirthmeticTask1\AirthmeticTask1\obj\Debug\net6.0\AirthmeticTask1.genruntimeconfig.cache

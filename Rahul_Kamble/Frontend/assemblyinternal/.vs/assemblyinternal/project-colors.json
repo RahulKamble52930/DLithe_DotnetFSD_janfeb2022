@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c69afb88-5f49-4b33-b280-799e03d04012": {
+      "ProjectGuid": "c69afb88-5f49-4b33-b280-799e03d04012",
+      "DisplayName": "assemblyinternal",
+      "ColorIndex": 0
+    },
+    "a73e89f9-30af-406f-aaad-4a1f5f22cebe": {
+      "ProjectGuid": "a73e89f9-30af-406f-aaad-4a1f5f22cebe",
+      "DisplayName": "ClassLibrary2",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

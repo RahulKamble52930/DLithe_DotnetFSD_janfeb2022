@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--acessing bootstrap--> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+
+ 
+    <style>
+    .header{
+        padding:2rem 5%;
+        position: fixed;
+        top:0; left: 0; right: 0;
+        z-index: 1000;
+        box-shadow: 0 .5rem 1.5rem rgba(128, 126, 126, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #4c4e52;
+    }
+    
+    .header .logo{
+        font-size: 1.5rem;
+        color: var(--white
+        );
+    }
+    
+    .header .logo i{
+        color: var(--white);
+    }
+    
+    .header .navbar a{
+        font-size: 1.7rem;
+        color: var(--white);
+        margin-left: 2rem;
+    }
+    
+    .header .navbar a:hover{
+        color: var(--light-color);
+    }
+    body{
+        color: rgb(255, 255, 255);
+        background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    h2{
+        color: white;
+    }
+    p{
+        color: rgb(255, 255, 255);
+    }
+    pre{
+        color: rgb(255, 253, 253);
+    }
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".button1").click(function(){
+    $(".test").hide();
+  });
+});
+</script>
+
+<!-- hide show effect-->
+<script>
+    $(document).ready(function(){
+      $(".btn1").click(function(){
+        $("pre").hide();
+      });
+      $(".btn2").click(function(){
+        $("pre").show();
+      });
+    });
+    </script>
+
+
+<!-- toggle effect-->
+<script>
+    $(document).ready(function(){
+      $(".button2").click(function(){
+        $("#div30").toggle();
+      });
+    });
+    </script>
+
+<!-- fadein effect-->
+<script>
+    $(document).ready(function(){
+      $(".button3").click(function(){
+        $("#div1").fadeIn();
+        $("#div2").fadeIn("slow");
+        $("#div3").fadeIn(3000);
+    });
+    });
+    </script>
+<!--fade out effect-->
+<script>
+    $(document).ready(function(){
+      $(".button4").click(function(){
+        $("#div6").fadeOut();
+        $("#div7").fadeOut("slow");
+        $("#div8").fadeOut(3000);
+      });
+    });
+    </script>
+<!--fade toggle effect-->
+<script>
+    $(document).ready(function(){
+      $(".button5").click(function(){
+        $("#div11").fadeToggle();
+        $("#div12").fadeToggle("slow");
+        $("#div13").fadeToggle(3000);
+      });
+    });
+    </script>
+<!--Chaining effect-->
+<script>
+    $(document).ready(function(){
+      $(".button6").click(function(){
+        $("#div16").css("color", "red")
+          .slideUp(2000)
+          .slideDown(2000);
+      });
+    });
+    </script>
+    <!--Callback effect-->
+    <script>
+        $(document).ready(function(){
+          $(".button7").click(function(){
+            $("#div20").hide(1000);
+            alert("its hidden now");
+          });
+        });
+        </script>
+<!--set method-->
+        <script>
+            $(document).ready(function(){
+              $("#btn100").click(function(){
+                $("#test111").text("Hello DLithe!");
+              });
+              $("#btn200").click(function(){
+                $("#test222").html("<b>TEAM LONAVALA!</b>");
+              });
+              $("#btn300").click(function(){
+                $("#test333").val("DHARWAD");
+              });
+            });
+            </script>
+
+<script> 
+    $(document).ready(function(){
+      $(".button10").click(function(){
+        var div = $("#div40");  
+        div.animate({left: '100px'}, "slow");
+        div.animate({fontSize: '3em'}, "slow");
+      });
+    });
+    </script> 
+
+
+    </head>
+    <body>
+     
+            <header class="header">
+
+                <a href="#" class="logo"> <i class="fas fa-star"></i> JQuery </a>
+            
+                <nav class="navbar">
+                    <a href="#Selectors">Selectors</a>
+                    <a href="#Effects">Effects</a>
+        
+                    <a href="#Animations">Animations</a>
+              
+                </nav>
+          
+             
+            
+        </header>
+
+<hr>
+<h2>Examples of selectors</h2>
+        <div class="Selectors">
+            
+           
+            <h2 class="test">This is a heading</h2>
+
+            <p class="test">This is a paragraph.</p>
+            <p>This is another paragraph.</p>
+            
+            <button class="button1"><h3>Click me to hide the button </h3></button>
+          
+     </div>
+   <hr>
+   <hr>
+        <section class="Effects" id="Effects">
+            
+                <pre>This is a example of hide and show effect.</pre>
+                
+                <button class="btn1">Hide</button>
+                <button class="btn2">Show</button>
+                <hr>
+                <div id="div30">This is a example for toggle (hide and show using single button).</div>
+    
+                <button class="button2">Toggle between hide() and show()</button>
+                <hr>
+                <p>--------------------------------Demonstrate fadeIn()--------------------------------</p>
+
+                <button class="button3">Click to see fadein effects boxes</button><br><br>
+
+                <div id="div1" style="width:80px;height:80px;display:none;background-color:rgb(235, 137, 45);border-radius: 15%;"></div><br>
+                <div id="div2" style="width:80px;height:80px;display:none;background-color:rgb(129, 238, 40);border-radius: 15%;"></div><br>
+                <div id="div3" style="width:80px;height:80px;display:none;background-color:rgb(73, 235, 208);border-radius: 15%;"></div>
+                <hr>
+                <p>--------------------------------Demonstrate toggle()--------------------------------</p>
+       
+
+                <button class="button4">Click to fade out boxes</button><br><br>
+                
+                <div id="div6" style="width:80px;height:80px;background-color:rgb(238, 85, 85);border-radius: 25%;"></div><br>
+                <div id="div7" style="width:80px;height:80px;background-color:rgb(63, 192, 63);border-radius: 25%;"></div><br>
+                <div id="div8" style="width:80px;height:80px;background-color:rgb(84, 84, 214);border-radius: 25%;"></div>
+                
+                
+                <hr>
+                <p>--------------------------------Demonstrate fadeout()--------------------------------</p>
+                    
+
+                <button class="button5">Click to toggle box</button><br><br>
+
+                <div id="div11" style="width:80px;height:80px;background-color:rgb(7, 6, 6);border-radius: 50%;"></div><br>
+                <div id="div12" style="width:80px;height:80px;background-color:rgb(70, 71, 70);border-radius: 50%;"></div><br>
+                <div id="div13" style="width:80px;height:80px;background-color:rgb(156, 156, 156);border-radius: 50%;"></div>
+               <hr>
+               <p>--------------------------------Demonstrate --Chaining -----------------------------------</p>
+                <div id="div16"> <img src="https://tse3.mm.bing.net/th?id=OIP.JCI8klaaA1w4LCtljpeJoAHaHa&pid=Api&P=0&w=168&h=168" alt=""> <div>
+<hr>
+                <button class="button6">Click me to see --Chaining effect</button>
+
+                <hr>
+                <h2>--------Callback example-------------</h2>
+                <button class="button7">Hide</button>
+
+<div id="div20" ><p>hi everyone have a good day.</p></div>
+<hr>
+<h2>-----Example of set method-------</h2>
+
+<p id="test111">GOOD MORNING</p>
+<p id="test222">HAVE A NICE DAY.</p>
+
+<p>Input field: <input type="text" id="test333" value="BANGALORE"></p>
+
+<button id="btn100">Set Text</button>
+<button id="btn200">Set HTML</button>
+<button id="btn300">Set Value</button>
+        </section>
+
+
+        <hr>
+        <hr>
+        <h1>Animation</h1>
+     
+        
+        <section class="Animations" id="Animations">
+            <button class="button10">Start Animation</button>
+            <div id="div40" style="background:#f09e24;height:100px;width:200px;position:absolute;">INDIA</div>
+
+
+        </div>
+    </body>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+ 
+    
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    
+    <style>
+        
+  .container1 {
+      padding-inline-end: 10%;
+ width: 99%;
+height: auto; ;
+background-color: rgb(61, 64, 65);
+margin-right: auto;
+margin-left: auto;
+color: rgb(255, 255, 255);}
+.container7 {
+      padding-inline-end: 10%;
+ width: 95%;
+height: auto; ;
+background-color: rgb(2, 2, 2);
+margin-right: auto;
+margin-left: auto;
+color: rgb(255, 255, 255);}
+
+        body{
+            background: #090b0c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #39454b, #000000, #1d2f36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+    </style>
+    
+
+<style>
+    .container {
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+      
+    }
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .3s ease;
+      background-image: url("https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    }
+    
+    .container:hover .overlay {
+      width: auto;
+      opacity: 1;
+    }
+    
+    
+    .fa-user:hover {
+      color: #eee;
+    }
+
+    .header{
+    
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgb(69, 163, 100);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(44, 42, 42);
+}
+
+.header .navbar a{
+    font-size: 1rem;
+    color:white;
+    margin-left: 1rem;
+}
+
+.header .navbar a:hover{
+    color: var(--green);
+}
+    </style>
+    
+
+</head>
+<body>
+  <header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-heartbeat"></i> JavaScript concepts </a>
+
+    <nav class="navbar">
+        
+        <a href="exceptionhandeling.html">Exception_Handling</a>
+        <a href="#Arrays">Array</a>  
+        <a href="#Strings">Strings</a>
+        <a href="#Sclice">Sclice</a> 
+    </nav>
+    
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+<hr>
+<hr>
+
+    <div class="container">
+        <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+        <a href="#" class="icon" title="User Profile">
+          <i class="fa fa-user"></i>
+        </a>
+        </div>
+      </div>
+      <section class="Sclice" id="Sclice"></section>
+      <div class="container1">
+
+      <h1>Sclice and substr concepts</h1>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    </div>
+    <div class="container7">
+    <script>
+        let str = "strong,weak";
+        document.getElementById("demo").innerHTML=str.slice(-9);
+        </script>
+        <hr>
+        <script>
+            let str1 = "RAHULKAMBLE";
+            document.getElementById("demo1").innerHTML=str1.substr(2);
+            </script>
+    </div>
+
+
+<div class="container1">
+    <script>
+    // Creating variables
+    var colors = ["Red", "Green", "Blue"]; 
+    document.write(colors + "<br>");
+    colors.push("Pink", "Voilet");
+    document.write(colors + "<br>");
+colors.unshift("Yellow", "Grey");
+document.write(colors + "<br>");
+    </script>
+
+</div>
+<hr>
+
+
+<div class="container1">
+<h1>Array concepts</h1>
+<script>
+
+  
+  
+  const bike = ['pulsar', 'KTM', 'yamaha', 'RE'];
+  //splice(start, deleteCount, item1, item2, itemN)
+bike.splice(3, 0, 'TVS');
+// inserts at index 3
+document.write(bike);
+// expected output: Array [pulsar,KTM,yamaha,TVS,honda,RE]
+document.writeln("<br/>"); 
+
+bike.splice(4, 0, 'honda');
+// replaces 1 element at index 4
+document.write(bike);
+
+// expected output: Array ["Jan", "Feb", "March", "April", "May"]
+document.writeln("<br/>"); 
+
+var a = ['one', 'two', 'three', 'four', 'five']
+document.write(a);
+document.writeln("<br/>"); 
+var b = a.splice(2, 2);
+document.write(b);
+document.writeln("<br/>"); 
+document.write(a);
+document.writeln("<br/>"); 
+a.splice(2, 0, 'three','four');
+document.write(a);
+document.writeln("<br/>"); 
+  </script>
+  <hr>
+
+<div class="container1">
+  <script>  
+<h1>String concepts</h1>
+
+  var s1="Rahul ";  
+  var s2="Kamble";  
+  var s3=s1.concat(s2);  
+  document.write(s3);  
+  </script> 
+
+<hr>
+<script>  
+    var s1="Rahul";  
+    var s2="Kamble ";  
+    var s3=s2.concat(s1);  
+    document.write(s3);  
+    </script> 
+    </div>
+    <hr>
+    <div class="container1">
+    <script>  
+        //The JavaScript String trim() method removes leading and trailing whitespaces from the string.
+                   var s1="     javascript trim    ";  
+                   var s2=s1.trim();  
+                   document.write(s2);  
+        </script>  
+ 
+</div>
+<hr>
+<div class="container1">
+    <h2>JavaScript Math Constants</h2>
+    <p id="demo3"></p>
+ 
+<script>
+    
+   //"use strict"; 
+   a=22;
+document.getElementById("demo3").innerHTML = 
+"<p><b>Math.E:</b> " + Math.E + "</p>" +
+"<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+"<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+"<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+"<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+"<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+"<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+"<p><b>Math.Log10E:</b> " + Math.LOG10E + "</p>";
+</script>
+    </div>
+<hr>
+<h2>Outputs </h2>
+<div class="container1">
+<script>
+document.write(Math.round(4.7)+"<br>");
+document.write(Math.round(-4.7)+"<br>");
+document.write(Math.ceil(4.7)+"<br>");
+document.write(Math.ceil(4.2)+"<br>");
+document.write(Math.floor(4.7)+"<br>");
+document.write(Math.trunc(4.7)+"<br>");
+document.write(Math.sign(0)+"<br>");
+document.write(Math.sign(-4.7)+"<br>");
+document.write(Math.pow(4,2)+"<br>");
+document.write(Math.sqrt(81)+"<br>");
+document.write(Math.abs(-1)+"<br>");
+document.write(Math.sin(1)+"<br>");
+document.write(Math.cos(1)+"<br>");
+document.write(Math.tan(1)+"<br>");
+document.write(Math.min(0, 150, 30, 20, -8, -200)+"<br>");
+document.write(Math.max(0, 150, 30, 20, -8, -200)+"<br>");
+document.write(Math.random()+"<br>");   
+document.write(Math.log(1)+"<br>");  
+//Math.floor(Math.random() * 10) returns a random integer between 0 and 9 (both included):
+document.write(Math.floor(Math.random() * 100)+"<br>");
+ //0 to 99 (*100) 0 to 100 (*101) 0 to 10 (*11) 
+    
+    </script>
+    </div>
+<hr>
+<h1>Date and time functions concepts</h1>
+Current Time: <span id="txt2"></span>  
+<script>  
+window.onload=function()
+{
+    getTime();
+}  
+function getTime()
+{  
+var today=new Date();  
+var h=today.getHours();  
+var m=today.getMinutes();  
+var s=today.getSeconds();  
+// add a zero in front of numbers<10  
+m=checkTime(m);  
+s=checkTime(s);  
+document.getElementById('txt2').innerHTML=h+":"+m+":"+s;  
+setTimeout(function()
+{
+    getTime()
+},1000);//1 second  
+}  
+//setInterval("getTime()",1000);//another way  
+function checkTime(i){  
+if (i<10){  
+  i="0" + i;  
+ }  
+return i;  
+}  
+</script>
+<hr>
+
+<script>
+
+    var d1 = new Date("03/16/1998"); 
+    var d2 = new Date(); 
+    var diff = d2.getTime() - d1.getTime(); 
+    
+    var daydiff = (diff / 31536000000).toFixed(0);   
+    document.write("Since my birthday is on "+  d1 + "My age is"+ daydiff  ); 
+    </script> 
+    <hr>
+    <script>
+        var d11 = new Date("03/16/1998"); 
+        document.write("My bday is on" + d11 +"<br>");
+        var d12 = new Date("5/22/2000"); 
+        document.write("My brothers bday is on" + d12+"<br>");
+    var diff = d12.getTime() - d11.getTime(); 
+    
+    var daydiff = (diff / 31536000000).toFixed(0);   
+    document.write("Im "+ + daydiff + "Years bigger than my brother");
+    </script>
+
+
+    
+</body>
+</html>

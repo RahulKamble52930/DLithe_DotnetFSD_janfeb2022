@@ -1,0 +1,15 @@
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\obj\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.csproj.AssemblyReference.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\obj\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.GeneratedMSBuildEditorConfig.editorconfig
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\obj\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.AssemblyInfoInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\obj\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.AssemblyInfo.cs
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\obj\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.csproj.CoreCompileInputs.cache
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\bin\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.exe
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\bin\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.deps.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\bin\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.runtimeconfig.json
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\bin\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\bin\Debug\net6.0\ref\DLithe_BC_NFS_T_Task25_C.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\bin\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\obj\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\obj\Debug\net6.0\ref\DLithe_BC_NFS_T_Task25_C.dll
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\obj\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.pdb
+F:\DLithe_DotnetFSD_janfeb2022\Rahul_Kamble\Frontend\DLithe_BC_NFS_T_Task25_C\obj\Debug\net6.0\DLithe_BC_NFS_T_Task25_C.genruntimeconfig.cache

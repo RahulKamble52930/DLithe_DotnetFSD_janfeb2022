@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+          background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    body {
+    position: relative;
+  }
+  ul.nav-pills {
+    top: 20px;
+    position: relative;
+  }
+  div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+  }
+  #section1 {color: #fff; background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;}
+  #section2 {color: #fff; background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;}
+  #section3 {color: #fff; background: #FF0099;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;}
+  #section41 {color: #fff; background-color: #00bcd4;}
+  #section42 {color: #fff; background-color: #009688;}
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+      margin-left: 150px;
+    }
+  }
+  </style>
+    </style>
+    
+  <title>task15 first example of bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+<div class="container">
+  <h3>Click here to see Dlithe team</h3>
+  <a href="#" data-toggle="popover" title="ARUN" data-content="PALLAVI">Team Dlithe</a>
+</div>
+<div class="container">
+    <h3>Click below to see team lonavala</h3>
+    <ul class="list-inline">
+      <li><a href="#" title="hello" data-toggle="popover" data-placement="top" data-content="im rahul">Rahul</a></li>
+      <li><a href="#" title="hii" data-toggle="popover" data-placement="bottom" data-content="im sahil">sahil</a></li>
+      <li><a href="#" title="hii everone" data-toggle="popover" data-placement="left" data-content="im disha">disha</a></li>
+      <li><a href="#" title="hi" data-toggle="popover" data-placement="right" data-content="im payal">payal</a></li>
+      <li><a href="#" title="hello" data-toggle="popover" data-placement="top" data-content="im jothi we are from lonavala">jothi</a></li>
+    </ul>
+  </div>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+
+
+<div class="container">
+  <h2>example of Striped Progress Bars</h2>
+  <p>The :</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+      40% Complete (success)
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      50% Complete (info)
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+      60% Complete (warning)
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+      70% Complete (danger)
+    </div>
+  </div>
+</div>
+
+<div class="example of container">
+  <h2>Animated Progress Bar</h2>
+  <p> animates the progress bar:</p> 
+  <div class="progress of my webpage">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+      40%
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h2>Stacked Progress Bars</h2>
+  <p>Create a stacked progress bar by placing multiple bars into the same div with class .progress:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+      Free Space
+    </div>
+    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+      Warning
+    </div>
+    <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+      Danger
+    </div>
+  </div>
+</div>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+  <div class="container">
+    <div class="row">
+      <nav class="col-sm-3" id="myScrollspy">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>                     
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="col-sm-9">
+        <div id="section1">    
+          <h1>Section 1</h1>
+          <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+        </div>
+        <div id="section2"> 
+          <h1>Section 2</h1>
+          <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+        </div>        
+        <div id="section3">         
+          <h1>Section 3</h1>
+          <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+        </div>
+        <div id="section41">         
+          <h1>Section 4-1</h1>
+          <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+        </div>      
+        <div id="section42">         
+          <h1>Section 4-2</h1>
+          <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

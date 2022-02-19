@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+ 
+    
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    
+    <style>
+         .container1 {
+      padding-inline-end: 10%;
+ width: 99%;
+height: auto; ;
+background-color: rgb(61, 64, 65);
+margin-right: auto;
+margin-left: auto;
+color: rgb(255, 255, 255);}
+
+body{
+            background: #090b0c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #39454b, #1f1e1e, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        h2{
+            color: rgb(255, 255, 255);
+        }
+      
+    </style>
+    </head>
+    <body>
+
+        <h2>Encapsulation</h2>
+    
+        <div class="container1">
+        <script>
+            
+            //encapsulation example
+             
+class Employee  
+  {  
+    constructor()  
+    {  
+       var name;  
+       var EmpID;  
+    }  
+        getName()       //get method 
+        {  
+          return this.name;  
+        }  
+      setName(name)         //set method
+      {  
+        this.name=name;  
+      }  
+        
+      getEmpID()  
+      {  
+        return this.EmpID;  
+      }  
+    setEmpID(EmpID)  
+    {  
+      this.EmpID=EmpID;  
+    }  
+  
+    }  
+    var stud=new Employee();  
+     stud.setName("JATIN");  
+     stud.setEmpID(216001);  // calling get n set method 
+     document.writeln("Employee name is ="+stud.getName()+",       "+"   With EmpID= "+stud.getEmpID());  
+</script>  
+</div>
+
+
+<h2>
+    Abstraction
+</h2>
+<div class="container1">
+    <script>
+       
+    //Creating a constructor function
+     function planet()
+    {
+        this.planetName="planetName";
+        throw new Error("You cannot create an instance of Abstract Class");
+    }
+
+    planet.prototype.display=function()
+    {
+        return "Planet is: "+this.planetName;
+    }
+    //Creating a constructor function
+    function Jupiter(planetName)
+    {
+        this.planetName=planetName;
+    }
+    //Creating object without using the function constructor
+    Jupiter.prototype=Object.create(planet.prototype);
+
+    var Jupiter=new Jupiter("Jupiter");
+    document.writeln(Jupiter.display());
+    </script>  
+</div>
+
+
+<h2> Function Overloading </h2>
+<div class="container1">
+    <script>
+    function displayName() {
+        // if no argument        
+        if (arguments.length == 0) {
+          document.write('No argument is passed.');
+        }
+      
+        // if only one argument 
+        else if (arguments.length == 1) {
+          document.write('You have to pass at least two arugments to perform multiplication.');
+        }
+      
+        // multiple arguments
+        else {
+          let prod = 1;
+          let length = arguments.length;
+          for (var i = 0; i < length; i++) {
+            prod = prod * arguments[i];
+          }
+          document.write("product is " + prod);
+        }
+      }
+      
+      displayName(3,3,4,5); //c
+    </script>
+
+</div> 
+    </body>
+    </html>

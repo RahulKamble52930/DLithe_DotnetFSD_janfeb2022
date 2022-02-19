@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "ae515469-9efc-4644-adeb-f50ce73be51d": {
+      "ProjectGuid": "ae515469-9efc-4644-adeb-f50ce73be51d",
+      "DisplayName": "DLithe_BC_NFS_T_Task24_",
+      "ColorIndex": 0
+    },
+    "dafed40c-44a6-448f-a99d-b82f2a22a995": {
+      "ProjectGuid": "dafed40c-44a6-448f-a99d-b82f2a22a995",
+      "DisplayName": "DLithe_BC_NFS_T_Task24_",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
